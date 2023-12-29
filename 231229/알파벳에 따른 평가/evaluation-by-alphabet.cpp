@@ -8,7 +8,7 @@ int main() {
         cout << "Superior";
     }
     else if ( a == 'A') {
-        cout << "Exccellent";
+        cout << "Excellent";
     }
     else if ( a == 'B') {
         cout << "Good";
