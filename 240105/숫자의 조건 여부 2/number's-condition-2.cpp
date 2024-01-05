@@ -7,7 +7,7 @@ int main() {
         cout << 'A';
     }
     if ( a % 2 == 0) {
-        
+        cout << 'B'
     }
     return 0;
 }
