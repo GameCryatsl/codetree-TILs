@@ -1,19 +1,19 @@
 #include <iostream>
-using namespace sd;
+using namespace std;
 int main() {
-    int n;
-    cin >> n;
-    for (int i = n ; i <= 100; i++) {
-        if (a >= 90) {
+    int a;
+    cin >> a;
+    for (int i = a ; i <= 100; i++) {
+        if (i >= 90) {
             cout << "A ";
         }
-        else if (a >= 80) {
+        else if (i >= 80) {
             cout << "B ";
         }
-        else if (a >= 70) {
+        else if (i >= 70) {
             cout << "C ";
         }
-        else if (a >= 60) {
+        else if (i >= 60) {
             cout << "D ";
         }
         else {
