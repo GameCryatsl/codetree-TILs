@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     int n, c1 = 0, c2 = 0, c3 = 0;
     cin >> n;
-    for(int i = 1; i <= 11; i++) {
+    for(int i = 1; i <= n; i++) {
         if (i % 12 == 0) {
             c3++;
         }
