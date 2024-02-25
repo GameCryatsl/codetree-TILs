@@ -2,6 +2,7 @@
 using namespace std;
 int main() {
     int n, chk = 0;
+    cin >> n;
     for(int i = 2; i < n; i++) {
         if(n % i == 0) {
             chk = 1;
@@ -9,8 +10,8 @@ int main() {
         }
     }
     if(chk) {
-        cout << "N";
+        cout << "C";
     }
-    else cout << "C";
+    else cout << "N";
     return 0;
 }
