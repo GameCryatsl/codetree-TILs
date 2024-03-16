@@ -7,7 +7,7 @@ int main() {
         for(int j = b; j >= a; j--) {
             if(j % 2 == 0) {
                 cout << j << " * " << i << " = " << i * j;
-                if((i * (j - 2)) != 0) {
+                if(j - 1 > a) {
                     cout << " / ";
                 }
             }
