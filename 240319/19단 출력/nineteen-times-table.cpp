@@ -6,7 +6,9 @@ int main() {
             if(j % 2 == 0) {
                 cout << " / ";
             }
-            else cout << endl;
+            else if(i != 1 || j != 1) {
+                cout << endl;
+            }
             cout << i << " * " << j << " = " << i * j;
         }
     }
